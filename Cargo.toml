@@ -1,0 +1,12 @@
+[package]
+name = "gpu-rng"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "0.15"
+env_logger = "0.10"
+pollster = "0.3"
+tokio = { version = "1.41.1", features = ["full"] }
+futures-intrusive = "0.4"
+bytemuck = { version = "1.13", features = ["derive"] }
